@@ -1,0 +1,105 @@
+.row{
+  margin-left:0;
+  margin-right:0;
+}
+
+.container{
+  min-width: 100%;
+  padding: 0;
+}
+.headerBanner{
+  background-color: rgb(0, 0, 0);
+  color: lavenderblush;
+  text-align: center;
+  margin: 0;
+}
+
+.leftSection{
+  max-width: 100%;
+  padding: 0;
+  margin:0;
+  background-color: rgb(0, 102, 255);
+}
+
+.rightSec{
+  display: none;
+}
+
+.forecastSec{
+  background-color:rgb(221, 221, 221);
+ 
+  margin: 0;
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.searchHis{
+  width: 95%;
+  background-color: black;
+  color: tan;
+  margin: 5px;
+}
+
+#searchBar{
+  border-style: solid;
+  height:25px;
+  min-width: max-content;
+  padding: 0;
+  margin: 5px;
+}
+
+#searchbtn, .btn-sm{
+  margin: 5px;
+  padding:5px;
+}
+.searchSec{
+  margin:0;
+}
+.fivedayforecast{
+  border-style: solid;
+  background-color:#001f3f;
+  color: lavenderblush;
+  border-color: lavenderblush;
+  border-width: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  text-align: center;
+  width: max-content;
+  padding:5px;
+}
+
+
+.forecastdate, .current, #weatherState{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top:0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.current{
+  text-align: left;
+  font-size: 13px;
+}
+
+#currentWeatherDetails{
+  margin: 5px;
+}
+
+.thisWeather{
+  margin-bottom: 10px;
+}
+
+#locationName{
+  margin:0;
+  padding:0;
+}
+
+h2, .indent{
+  padding-left: 5px;
+}

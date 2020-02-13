@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=One.Zero">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/Four.Zero.Zero/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class = "conwrapper">
+ <header class = "headerBan"> <HTwo>Weather Dashboard</HTwo> </header>
+        
+ <div class = "container">
+<div class="row">
+<div class = "col-Four leftSection">
+<div class = "leftSection">
+  <p class="indent">Search for a City:</p>
+    <div class = "row searchSec">
+     <p class = "col-sm-8" id="searchBar" contenteditable="true"></p>
+      <button type="button" class="btn btn-secondary btn-sm" id="searchBtn">search</button>
+  </div>
+    <br>
+     <div class ="searchHistory"></div>
+     </div>
+     </div>
+    <div class ="rightSec col-8">
+     <p id= "locationName"></p>
+     <div class = "row thisWeather">
+    <div> <img id = "currentWeatherImg" width="OneZeroZeropx" height="OneZeroZeropx"> <p class = "current" id = "weatherState"></p>  </div>
+        
+        <div id="currentWeatherDetails">
+<p class = "current" id = "currentTemp"></p>
+<p class = "current" id = "windSpd"></p>
+<p class = "current" id = "highTemp"></p>
+<p class = "current" id = "lowTemp"></p>
+<p class = "current" id = "humid"></p>
+<p class = "current" id = "uv"></p>
+ </div>
+ </div>
+
+ <div class = "forecastSec">
+ <hTwo>5-Day Forecast: </hTwo>
+
+ <div class = "row forecastDetail">
+
+ <div class = "forecastdate" id = "dayZero">
+ <p class = "fivedayforecast" id = "dayZeroDate"></p>
+<img  class = "fivedayforecast" id = "dayZeroImg">
+<p class = "fivedayforecast" id = "dayZeroSt"></p>
+<p class = "fivedayforecast" id = "dayZeroTemp"></p>
+<p class = "fivedayforecast" id = "dayZerohumid"></p>
+</div>
+
+<div class = "forecastdate" id = "dayOne">
+<p class = "fivedayforecast" id = "dayOneDate"></p>
+<img class = "fivedayforecast" id = "dayOneImg">
+<p class = "fivedayforecast" id = "dayOneSt"></p>
+<p class = "fivedayforecast" id = "dayOneTemp"></p>
+<p class = "fivedayforecast" id = "dayOnehumid"></p>
+</div>
+
+<div class = "forecastdate" id = "dayTwo">
+<p class = "fivedayforecast" id = "dayTwoDate"></p>
+<img class = "fivedayforecast" id = "dayTwoImg">
+<p class = "fivedayforecast" id = "dayTwoSt"></p>
+<p class = "fivedayforecast" id = "dayTwoTemp"></p>
+<p class = "fivedayforecast" id = "dayTwohumid"></p>
+</div>
+
+<div class = "forecastdate" id = "dayThree">
+<p class = "fivedayforecast" id = "dayThreeDate"></p>
+<img  class = "fivedayforecast" id = "dayThreeImg">
+<p class = "fivedayforecast" id = "dayThreeSt"></p>
+<p class = "fivedayforecast" id = "dayThreeTemp"></p>
+<p class = "fivedayforecast" id = "dayThreehumid"></p>
+ </div>
+
+<div class = "forecastdate" id = "dayFour">
+<p class = "fivedayforecast" id = "dayFourDate"></p>
+ <img class = "fivedayforecast" id = "dayFourImg">
+<p class = "fivedayforecast" id = "dayFourSt"></p>
+<p class = "fivedayforecast" id = "dayFourTemp"></p>
+<p class = "fivedayforecast" id = "dayFourhumid"></p>
+                    </div>        
+              </div>
+          </div>
+       </div>
+    </div>  
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/Three.Two.One/jquery.min.js"></script>
+  <script src="script.js"></script>
+</html>
